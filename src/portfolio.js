@@ -70,7 +70,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C++",
-      fontAwesomeClassname: "fab fa-c"
+      fontAwesomeClassname: "fa-solid fa-c"
     },
     {
       skillName: "JavaScript",
@@ -145,6 +145,10 @@ const techStack = {
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
+      Stack: "Java", 
+      progressPercentage: "70%" 
+    },
+    {
       Stack: "Backend",
       progressPercentage: "70%"
     },
@@ -163,13 +167,12 @@ const workExperiences = {
   experience: [
     {
       role: "Software Enginee",
-      company: "National Payment Corporation of Vietnam - NAPAS",
+      company: "National Payment Corporation - NAPAS",
       companylogo: require("./assets/images/Napas.png"),
       date: "November 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "National Payment Corporation of Vietnam - NAPAS",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "ISO 8583, Bank Card Switching"
       ]
     },
     {
@@ -177,14 +180,20 @@ const workExperiences = {
       company: "LG R&D Vietnam",
       companylogo: require("./assets/images/LG.png"),
       date: "November 2021 – May 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "LG R&D Vietnam",
+      descBullets: [
+        "C++, MQTT, Yocto Project, Socket,..."
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "Samsung Vietnam Mobile R&D Center",
       companylogo: require("./assets/images/Samsung.png"),
       date: "2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Samsung Vietnam Mobile R&D Center",
+      descBullets: [
+        "ISO 8583, Bank Card Switching"
+      ]
     }
   ]
 };
